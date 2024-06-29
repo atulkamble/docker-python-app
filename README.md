@@ -2,6 +2,9 @@
 # testdevopsproject
 Dockerise python Code
 
+git clone https://github.com/atulkamble/dockerpythonproject.git
+cd dockerpythonproject
+
 sudo -i passwd
 sudo yum install git -y
 git --version
