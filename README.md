@@ -1,3 +1,4 @@
+```
 # testdevopsproject
 Dockerise python Code
 
@@ -40,4 +41,5 @@ sudo docker login
 sudo docker build -t atuljkamble/pythonproject .
 sudo docker images
 sudo docker push atuljkamble/pythonproject
+```
 
