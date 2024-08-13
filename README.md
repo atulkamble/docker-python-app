@@ -55,7 +55,7 @@ Verify Docker installation:
    ```
 
 4. **Configure Git:**
-   - Set up your Git user details:
+Set up your Git user details:
      ```bash
      git config --global user.name "atulkamble"
      git config --global user.email "atul_kamble@hotmail.com"
@@ -73,12 +73,12 @@ Add your Python code to `sum.py` and test it:
      ```
 
 6. **Create Dockerfile:**
-   - Create a Dockerfile:
+Create a Dockerfile:
      ```bash
      touch Dockerfile
      sudo nano Dockerfile
      ```
-   - Add the following content to your Dockerfile:
+Add the following content to your Dockerfile:
      ```dockerfile
      # Use the official Python image from the Docker Hub
      FROM python:3.8-slim
