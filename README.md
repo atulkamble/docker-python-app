@@ -9,19 +9,19 @@ cd docker-python-app
 ## Prerequisites
 
 1. **Ensure Docker is installed on your system:**
-   - Install Docker if it’s not already installed:
+Install Docker if it’s not already installed:
      ```bash
      sudo yum install docker -y
      ```
 
 2. **Install Git:**
-   - If Git is not installed, install it:
+If Git is not installed, install it:
      ```bash
      sudo yum install git -y
      ```
 
 3. **Install Python:**
-   - If Python is not installed, install it:
+If Python is not installed, install it:
      ```bash
      sudo yum install python -y
      ```
@@ -35,15 +35,15 @@ cd docker-python-app
    ```
 
 2. **Setup Docker:**
-   - Start the Docker service:
+Start the Docker service:
      ```bash
      sudo systemctl start docker
      ```
-   - Enable Docker to start on boot:
+Enable Docker to start on boot:
      ```bash
      sudo systemctl enable docker
      ```
-   - Verify Docker installation:
+Verify Docker installation:
      ```bash
      docker --version
      ```
@@ -62,12 +62,12 @@ cd docker-python-app
      ```
 
 5. **Create and Test Python Script:**
-   - Create a Python script file:
+Create a Python script file:
      ```bash
      touch sum.py
      sudo nano sum.py
      ```
-   - Add your Python code to `sum.py` and test it:
+Add your Python code to `sum.py` and test it:
      ```bash
      python3 sum.py
      ```
@@ -103,29 +103,29 @@ cd docker-python-app
      ```
 
 7. **Build and Push Docker Image:**
-   - Log in to Docker Hub:
+Log in to Docker Hub:
      ```bash
      sudo docker login
      ```
-   - Build your Docker image:
+Build your Docker image:
      ```bash
      sudo docker build -t atuljkamble/pythonproject .
      ```
-   - Verify the Docker image is built:
+Verify the Docker image is built:
      ```bash
      sudo docker images
      ```
-   - Push the Docker image to Docker Hub:
+Push the Docker image to Docker Hub:
      ```bash
      sudo docker push atuljkamble/pythonproject
      ```
 
 8. **Run Docker Container:**
-   - Run your Docker container:
+Run your Docker container:
      ```bash
      sudo docker run atuljkamble/pythonproject
      ```
-   - List all Docker containers to verify it is running:
+List all Docker containers to verify it is running:
      ```bash
      sudo docker ps -a
      ```
