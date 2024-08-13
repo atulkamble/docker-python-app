@@ -131,4 +131,3 @@ cd docker-python-app
      ```
 
 By following these steps, you will have successfully Dockerized your Python application, built a Docker image, and run it as a container.
-```
