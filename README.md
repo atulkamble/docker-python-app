@@ -45,6 +45,6 @@ sudo docker build -t atuljkamble/pythonproject .
 sudo docker images
 sudo docker push atuljkamble/pythonproject
 sudo docker run atuljkamble/pythonproject
-sudo dockerps -a
+sudo docker ps -a
 ```
 
