@@ -1,5 +1,11 @@
 # Dockerizing Python Code
 
+## Clone repo
+```
+git clone https://github.com/atulkamble/docker-python-app.git
+cd docker-python-app
+```
+
 This README provides a comprehensive guide to containerizing a Python application using Docker. Follow the steps below to set up your environment, create a Dockerfile, build and push your Docker image, and run your container.
 
 ## Prerequisites
